@@ -12,10 +12,10 @@ config_s2i
 
 cp -Rf /tmp/src/*.html ./
 
-DATE=`date "+%Y-%m-%d"`
+DATE=date "+%Y-%m-%d"
 
-echo "script is created on $DATE" >> ./info.html
-echo "write anything you want" >> ./info.html
+echo "page built on $DATE" >> ./info.html
+echo "anything you want to write" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
